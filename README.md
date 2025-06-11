@@ -13,7 +13,9 @@ These findings highlight the promise of operator learning for efficient and accu
 light field data.
 
 ## 2. Network Architecture 
-![Alt text](architecture.pdf)
+<p align="center">
+  <img src="architecture.pdf" alt="Network Architecture" width="800">
+</p>
 
 ## 3. Stages to Train
 - Download full_data HCI Light field dataset on http://hci-lightfield.iwr.uni-heidelberg.de/.
