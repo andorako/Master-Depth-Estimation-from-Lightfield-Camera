@@ -14,13 +14,13 @@ light field data.
 
 ## 2. Network Architecture 
 <p align="center">
-  <img src="architecture.pdf" alt="Network Architecture" width="800">
+  <img src="architecture.png" alt="Network Architecture" width="800">
 </p>
 
 ## 3. Stages to Train
 - Download full_data HCI Light field dataset on http://hci-lightfield.iwr.uni-heidelberg.de/.
 - Unzip full_data.
-- Create masks by running [boolmasks.ipynb](boolmasks.ipynb)
-- Run [9BS_small_train.ipynb](9BS_small_train.ipynb)
+- Create masks by running [boolmasks.ipynb](boolmasks.ipynb).
+- Run [9BS_small_train.ipynb](9BS_small_train.ipynb).
 
 The code is modified and heavily borrowed from [SubFocal](https://github.com/chaowentao/SubFocal?tab=readme-ov-file).
