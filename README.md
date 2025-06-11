@@ -13,10 +13,12 @@ These findings highlight the promise of operator learning for efficient and accu
 light field data.
 
 ## 2. Network Architecture 
-[architecture.pdf](https://github.com/user-attachments/files/20696074/architecture.pdf)
+![Alt text](architecture.pdf)
 
 ## 3. Stages to Train
 - Download full_data HCI Light field dataset on http://hci-lightfield.iwr.uni-heidelberg.de/.
 - Unzip full_data.
 - Create masks by running [boolmasks.ipynb](boolmasks.ipynb)
-- Run [9BS_small_train.ipynb](9BS_small_train.ipynb) 
+- Run [9BS_small_train.ipynb](9BS_small_train.ipynb)
+
+The code is modified and heavily borrowed from [SubFocal](https://github.com/chaowentao/SubFocal?tab=readme-ov-file).
